@@ -1,21 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Navigation } from '../components/navigation';
 
 export const HomePage = () => {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to='/'>Home page</Link>
-          </li>
-          <li>
-            <Link to='/product'>Product</Link>
-          </li>
-          <li>
-            <Link to='/price'>Price</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navigation />
+      <h1>WorlWise</h1>
     </div>
   );
 };

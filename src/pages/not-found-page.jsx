@@ -1,3 +1,10 @@
+import { Navigation } from '../components/navigation';
+
 export const NotFoundPage = () => {
-  return <div>page not found</div>;
+  return (
+    <div>
+      <Navigation />
+      <h1>Page not found</h1>
+    </div>
+  );
 };
