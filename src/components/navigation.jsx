@@ -1,17 +1,17 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Navigation = () => {
   return (
     <nav>
       <ul>
         <li>
-          <Link to='/'>Home page</Link>
+          <NavLink to='/'>Home page</NavLink>
         </li>
         <li>
-          <Link to='/product'>Product</Link>
+          <NavLink to='/product'>Product</NavLink>
         </li>
         <li>
-          <Link to='/price'>Price</Link>
+          <NavLink to='/price'>Price</NavLink>
         </li>
       </ul>
     </nav>
