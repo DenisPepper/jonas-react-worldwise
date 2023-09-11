@@ -1,11 +1,11 @@
 // Uses the same styles as Product
-import { Navigation } from '../components/navigation';
+import { AppNav } from '../components/AppNav';
 import styles from './Product.module.css';
 
 export default function Pricing() {
   return (
     <main className={styles.product}>
-      <Navigation />
+      <AppNav />
       <section>
         <div>
           <h2>

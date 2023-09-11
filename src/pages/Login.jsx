@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import styles from './Login.module.css';
-import { Navigation } from '../components/navigation';
+import { AppNav } from '../components/AppNav';
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -10,7 +10,7 @@ export default function Login() {
 
   return (
     <main className={styles.login}>
-      <Navigation />
+      <AppNav />
 
       <form className={styles.form}>
         <div className={styles.row}>

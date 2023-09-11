@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import styles from './navigation.module.css';
+import styles from './AppNav.module.css';
 import Logo from './Logo.jsx';
 
-export const Navigation = () => {
+export const AppNav = () => {
   return (
     <nav className={styles.nav}>
       <Logo />
-      <ul className={styles.nav_list}>
+      <ul>
         <li>
           <NavLink to='/product'>Product</NavLink>
         </li>
